@@ -14,7 +14,7 @@ spec:
         name: web
     spec:
       containers:
-      - image: gcr.io/YOUR_PROJECT_ID_HERE/todo:v1
+      - image: gcr.io/my_app_1997/todo:v1
         env:
           - name: POSTGRES_PASSWORD
             value: password
